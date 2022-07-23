@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+   display: flex;
+}
+.odin{
+    height: 20vh;
+}
+.logo{
+    display: flex;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+}
+.logoText{
+    color: white;
+}
+.img{
+    background-image: url(./halie-west-25xggax4bSA-unsplash.jpg);
+    /*height: 100vh;*/
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.form-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(252, 250, 250);
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    padding: 125px 0 50px 0;
+}
+.action{
+    margin-left: 50px;
+}
+.shadow{
+    background-color: white;
+    box-shadow: 0 10px 10px -10px gray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.main-form{
+    display: flex;
+    gap: 100px;
+    margin-left: 50px;
+}
+
+.form1 , .form2{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin-bottom: 20px;
+    border: 1px solid #E5E7EB;
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+}
+button{
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: large;
+}
+.button-section{
+    padding-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bolder;
+    font-size: large;
+}
+.last{
+    margin-left: 50px;
+    font-weight: bolder;
+    padding-bottom: 200px;
+}
+.unmatch{
+    border: 1px solid red;
+}
+.errmessage{
+    color: red;
+}
+.match{
+    border: 1px solid green;
+}
+.message{
+    color: green;
+}
